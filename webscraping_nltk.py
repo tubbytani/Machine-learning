@@ -3,6 +3,7 @@ import bs4 as b
 import re
 import nltk
 from nltk.corpus import wordnet
+import matplotlib.pyplot as plt
 header={'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"}
 url3="https://www.amazon.in/HP-14-inch-Laptop-Windows-cs0017TU/dp/B07S5VRTK9/ref=sr_1_9?dchild=1&keywords=laptop+hp&qid=1590123379&sr=8-9"
 page=rq.get(url3,headers=header)
@@ -45,19 +46,23 @@ good_comment+=good
 bad_comment+=bad
 count=0
 count1=0
+all_comments=[]
 #print(bad_comment)
 for j in range(len(reviews)):
     for i in range(len(good_comment)):
         if good_comment[i]==reviews[j]:
             count+=1
+            all_comments.append(reviews[j])
     for i in range(len(bad_comment)):
         if bad_comment[i]==reviews[j]:
-            count1+=1            
+            count1+=1
+            all_comments.append(reviews[j])
 #if we could separate only the adjectives from review
-print("The most common review word is: ",nltk.FreqDist(reviews).least_common(10))
+print("The most common review word is: ",nltk.FreqDist(all_comments).most_common(10))
 print("The good review count is: ",count)
 print("the bad review count is: ",count1)
-
+plt.pie([count,count1],labels=["good reviews","bad reviews"])
+plt.show()
 if count>count1:
         print("review is good")
 else:
