@@ -1,0 +1,256 @@
+"Page 5/7
+PVSYST V6.87
+05/06/20","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Stand alone system: Main results
+Project :
+bvp
+Simulation variant :
+New simulation variant","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Main system parameters
+System  type
+Stand alone system with batteries
+Near  Shadings
+Linear shadings
+PV Field Orientation
+tilt
+30°
+azimuth
+0°
+PV modules
+Model
+Poly 250 Wp  60 cells
+Pnom
+250 Wp
+PV Array
+Nb. of modules
+18
+Pnom total
+4500 Wp
+Battery
+Model
+6Y10 - Starting
+Technology
+Lead-acid, vented, vehicle starting
+Battery  Pack
+Nb. of units
+40
+Voltage / Capacity
+60 V / 936 Ah
+PVsyst TRIAL
+User's needs
+Daily household consumers
+Constant over the year
+Global
+4614 kWh/year","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"Main simulation results
+System  Production
+Available  Energy
+6470  kWh/year
+Specific prod.
+1438  kWh/kWp/year
+Used Energy
+4614 kWh/year
+Excess (unused)
+1622 kWh/year
+Performance Ratio PR
+45.93 %
+Solar Fraction SF
+100.00 %
+Loss of Load
+Time Fraction
+0.0 %
+Missing Energy
+0 kWh/year
+Battery ageing (State of Wear)
+Cycles  SOW
+89.6%
+Static  SOW
+80.0%
+Battery lifetime
+5.0 years","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"[kWh/kWp/day]
+Energy 
+Normalized 
+Normalized  productions  (per  installed  kWp):    Nominal  power  4500  Wp
+Performance  Ratio  PR    and  Solar  Fraction  SF
+10
+1.2
+8
+PVsyst TRIAL
+6
+4
+2
+0
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+New  simulation  variant
+PVsyst TRIAL
+Balances  and  main  results
+PVsyst TRIAL","","","","","","","","","","","","","","","","","","","","","","","","","","","Performance Ratio PR
+1.1
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","Lu : Unused energy (battery full)                      0.99 kWh/kWp/day
+Lc : Collection Loss (PV-array losses)           2.18 kWh/kWp/day
+Ls : System losses and battery charging        0.14 kWh/kWp/day
+Yf : Energy supplied to the user                      2.81 kWh/kWp/day","","","","","","","","","","","","","","","","","","","","","","","","","","","","","PR : Performance Ratio (Yf / Yr) :             0.459
+SF : Solar Fraction (ESol / ELoad) :          1.000","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","","","","","","","","","","","","","","GlobHor
+kWh/m²","","","","GlobEff
+kWh/m²","","","","E_Avail
+kWh","","","","","EUnused
+kWh","E_Miss
+kWh","","","","","","E_User
+kWh","","","","","E_Load
+kWh","","","","","","SolFrac","","","","","","","","","","","","","","","","","",""
+"","","","","","","","","","January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December","","","","","","117.8
+136.7
+188.0
+206.2
+222.0
+196.6
+166.5
+159.7
+170.5
+163.9
+128.0
+114.7","","","","158.1
+171.2
+206.8
+197.6
+192.2
+163.9
+140.8
+142.1
+174.2
+194.9
+171.7
+162.3","","","","493.8
+536.7
+642.0
+606.9
+593.3
+510.6
+437.6
+443.8
+542.9
+608.5
+540.8
+512.6","","","","","65.8
+170.0
+224.1
+206.7
+175.1
+111.3
+37.9
+56.1
+132.8
+189.7
+145.5
+107.0","0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000","","","","","","391.9
+354.0
+391.9
+379.3
+391.9
+379.3
+391.9
+391.9
+379.3
+391.9
+379.3
+391.9","","","","","391.9
+354.0
+391.9
+379.3
+391.9
+379.3
+391.9
+391.9
+379.3
+391.9
+379.3
+391.9","","","","","","1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000
+1.000","","","","","","","","","","","","","","","","","",""
+"","","","","","","","","","Year","","","","","","1970.5","","","","2075.8","","","","6469.5","","","","","1621.9","0.000","","","","","","4614.5","","","","","4614.5","","","","","","1.000","","","","","","","","","","","","","","","","","",""
+"Legends:
+GlobHor
+Horizontal global irradiation
+E_Miss
+Missing energy
+GlobEff
+Effective Global, corr. for IAM and shadings
+E_User
+Energy supplied to the user
+E_Avail
+Available Solar Energy
+E_Load
+Energy need of the user (Load)
+EUnused
+Unused energy (battery full)
+SolFrac
+Solar fraction (EUsed / ELoad)","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
